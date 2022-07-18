@@ -1,6 +1,6 @@
 {
   "name": "@protolane/button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.tsx",
   "repository": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/brunofin/button#readme",
   "dependencies": {
-    "@protolane/bem": "^1.0.3"
+    "@protolane/core": "^1.0.0",
+    "@protolane/bem": "^1.0.4"
   },
   "devDependencies": {
     "react": "^18.2.0",

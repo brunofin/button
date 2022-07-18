@@ -7,6 +7,6 @@ export type IButtonProps = {
 }
 
 export default function Button({onClick, className}: IButtonProps) {
-    const bem = useBem('button', 'protolane');
-    return <button {...bem(null, null, className)} onClick={() => onClick?.()}>Hello world</button>
+    const bem = useBem('button', 'protolane-');
+    return <button {...bem(undefined, undefined, className)} onClick={() => onClick?.()}>Hello world</button>
 }
